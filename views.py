@@ -23,7 +23,6 @@ class UsersListApiView(ListAPIView):
         DjangoFilterBackend,
     ]
 
-
 class ReportsListApiView(ListAPIView):
     """
     lists all reports
